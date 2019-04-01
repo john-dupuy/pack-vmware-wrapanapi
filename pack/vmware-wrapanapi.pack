@@ -1,0 +1,31 @@
+{
+"name": "vmware-wrapanapi",
+
+"description": "Checks for VMware ESX/ESXi and VCenter using wrapanapi",
+
+"path":"virtualization/",
+
+"templates": ["esx", "vmware-vcenter"],
+
+"macros":{
+         "_ESX_CPU_WARN": {"type":"fraction",
+                             "description":"Level for cpu usage"
+                             },
+         "_ESX_CPU_CRIT": {"type":"fraction",
+                             "description":"Level for cpu usage"
+                             },
+         "_ESX_MEM_WARN": {"type":"fraction",
+                             "description":"Level for ram usage"
+                             },
+         "_ESX_MEM_CRIT": {"type":"fraction",
+                             "description":"Level for ram usage"
+                             },
+         "_ESX_DISK_WARN": {"type":"fraction",
+                             "description":"Level for disk usage"
+                             },
+         "_ESX_DISK_CRIT": {"type":"fraction",
+                             "description":"Level for disk usage"
+                             },
+         }
+}
+

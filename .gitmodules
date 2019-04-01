@@ -1,0 +1,3 @@
+[submodule "libexec"]
+        path = libexec/check-vmware
+        url = https://github.com/john-dupuy/check-vmware.git

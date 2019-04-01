@@ -1,0 +1,18 @@
+{
+   "name": "vmware-wrapanapi",
+   "types": ["pack"],
+   "version": "0.0.1",
+   "homepage": "https://github.com/john-dupuy/pack-vmware-wrapanapi",
+   "author": "John Dupuy",
+   "description": "VMware checks making use of wrapanapi",
+   "repository": "https://github.com/john-dupuy/pack-vmware-wrapanpi",
+   "keywords": [
+      "pack",
+      "vmware",
+      "esxi"
+   ],
+   "dependencies": {
+      "shinken": ">=1.4"
+   },
+   "license": "AGPL"
+}
