@@ -5,7 +5,7 @@
    "homepage": "https://github.com/john-dupuy/pack-vmware-wrapanapi",
    "author": "John Dupuy",
    "description": "VMware checks making use of wrapanapi",
-   "repository": "https://github.com/john-dupuy/pack-vmware-wrapanpi",
+   "repository": "https://github.com/john-dupuy/pack-vmware-wrapanapi",
    "keywords": [
       "pack",
       "vmware",

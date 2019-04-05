@@ -5,7 +5,7 @@
 
 "path":"virtualization/",
 
-"templates": ["esx", "vmware-vcenter"],
+"templates": ["esx", "vcenter"],
 
 "macros":{
          "_ESX_CPU_WARN": {"type":"fraction",
@@ -24,6 +24,12 @@
                              "description":"Level for disk usage"
                              },
          "_ESX_DISK_CRIT": {"type":"fraction",
+                             "description":"Level for disk usage"
+                             },
+         "_VCENTER_DISK_WARN": {"type":"fraction",
+                             "description":"Level for disk usage"
+                             },
+         "_VCENTER_DISK_CRIT": {"type":"fraction",
                              "description":"Level for disk usage"
                              },
          }
