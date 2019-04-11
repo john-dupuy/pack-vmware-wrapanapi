@@ -32,6 +32,12 @@
          "_VCENTER_DISK_CRIT": {"type":"fraction",
                              "description":"Level for disk usage"
                              },
+         "_VCENTER_TASKS_WARN": {"type":"integer",
+                             "description":"Warning number of failed tasks to notify on"
+                             },
+         "_VCENTER_TASKS_CRIT": {"type":"integer",
+                             "description":"Critical number of failed tasks to notify on"
+                             }
          }
 }
 
