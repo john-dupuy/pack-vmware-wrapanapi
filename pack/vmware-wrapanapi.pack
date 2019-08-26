@@ -38,6 +38,18 @@
          "_VCENTER_TASKS_CRIT": {"type":"integer",
                              "description":"Critical number of failed tasks to notify on"
                              }
+         "_VM_COUNT_WARN": {"type":"integer",
+                         "description": "number of vms in vcenter"
+                         }
+         "_VM_COUNT_CRIT": {"type":"integer",
+                         "description": "number of vms in vcenter"
+                         }
+         "_TEMPLATE_COUNT_WARN": {"type":"integer",
+                         "description": "number of templates in vcenter"
+                         }
+         "_TEMPLATE_COUNT_CRIT": {"type":"integer",
+                         "description": "number of templates in vcenter"
+                         }
          }
 }
 
